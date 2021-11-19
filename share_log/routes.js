@@ -67,7 +67,8 @@ function MyTabBar({ state, descriptors, navigation }) {
 
 const AppTabComponent = () => {
   return (
-    <MainScreenTab.Navigator tabBar={(props) => <MyTabBar {...props} />} >
+    // <MainScreenTab.Navigator tabBar={(props) => <MyTabBar {...props} />} >
+    <MainScreenTab.Navigator>
         <MainScreenTab.Screen name="Blog" component={BlogScreen} />
         <MainScreenTab.Screen name="Settings" component={SettingsScreen} />
     </MainScreenTab.Navigator>
