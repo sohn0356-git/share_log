@@ -15,3 +15,6 @@
 #### for ios
   * XCode 13.1
   * cocoapods 1.10.2
+
+
+### 개발 일정 kick off
